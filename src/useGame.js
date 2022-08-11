@@ -13,7 +13,7 @@ function useGame(STARTING_TIME=15) {
 
     function calculateWordCount(text) {
         const wordMatches = text.match(/(\w+)/g)
-        return wordMatches.length
+        return wordMatches ? wordMatches.length : 0
     }
 
     function startGame() {
