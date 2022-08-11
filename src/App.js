@@ -8,7 +8,7 @@ function App() {
     const [text, timeRemaining, isRunning, wordCount, textAreaRef,
         handleChange, startGame] = useGame(STARTING_TIME)
 
-    return (
+    return ( 
         <div>
             <h1>How fast do you type?</h1>
             <textarea
